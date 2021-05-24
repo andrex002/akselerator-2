@@ -1,0 +1,20 @@
+.logo {
+  display: block;
+  padding-bottom: 12px;
+}
+.logo__img {
+  display: block;
+}
+@media (max-width: 1023px) {
+  .logo__img {
+    width: 133px;
+  }
+}
+@media (max-width: 767px) {
+  .logo {
+    padding-bottom: 0;
+  }
+  .logo__img {
+    width: 115px;
+  }
+}
